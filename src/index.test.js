@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import Navbar from './components/Navbar'
 
-describe('ExampleComponent', () => {
+describe('Navbar', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Navbar).toBeTruthy()
   })
 })
