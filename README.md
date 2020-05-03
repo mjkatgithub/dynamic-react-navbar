@@ -1,6 +1,6 @@
 # dynamic-react-navbar
 
-> Made with create-react-library
+> some navbars for react
 
 [![NPM](https://img.shields.io/npm/v/dynamic-react-navbar.svg)](https://www.npmjs.com/package/dynamic-react-navbar) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
