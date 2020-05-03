@@ -15,12 +15,17 @@ npm install --save dynamic-react-navbar
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'dynamic-react-navbar'
+import Navbar from 'dynamic-react-navbar'
 import 'dynamic-react-navbar/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    const links = [
+      { caption: 'Home', path: '/', key: '1' },
+      { caption: 'About', path: '/about', key: '2' },
+      { caption: 'Contact', path: '/Contact', key: '3' },
+    ];
+    return <Navbar links={links} />
   }
 }
 ```
