@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Navbar } from 'dynamic-react-navbar'
+import Navbar from 'dynamic-react-navbar';
 import 'dynamic-react-navbar/dist/index.css'
 
 import { BrowserRouter, Route } from 'react-router-dom'
